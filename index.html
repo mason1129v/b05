@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="index_main">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Fifth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">億個人的小宇宙</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">專題簡介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">組員資料</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="true">
+                                系統畫面展示及說明
+                            </a>
+                            <ul class="dropdown-menu" data-bs-popper="static">
+                                <li><a class="dropdown-item" href="system01.html">首頁、登入、註冊介面</a></li>
+                                <li><a class="dropdown-item" href="system02.html">使用者介面</a></li>
+                                <li><a class="dropdown-item" href="system03.html">操作流程展示</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="intro_img"><img src="static/img/logo_white.png"></div>
+            <div class="intro_tt shiro_f">
+                <h4>CYIM &emsp;&emsp;112-1 B05</h4>
+                <h1>億個人的小宇宙</h1>
+                <h4>Myriad Universes Within</h4>
+                <hr>
+                <h5>徐心慧 林庭妤 吳孟軒 陳品叡</h5>
+                <h5>指導老師：李國誠</h5>
+            </div>
+        </div>
+        <div class="mtvt">
+            <h2 class="mid_tt">專題緣起</h2>
+            <h5 class="ctnt">&emsp;&emsp;自2020年COVID-19出現大規模爆發後，疫情驅使各行各業展開數位轉
+                型，全球化、雲端化、個人化三個維度開始受到重視。IBM所提出的服務科學
+                觀點中，也強調服務科學化、科技服務化的重要性。
+                <br><br>&emsp;&emsp;在後疫情時代，雲端視訊平台、直播平台…等快速崛起，混合辦公室是後
+                疫情時代最具競爭力的辦公方式，加上遠距教學之普及，視訊平台及相關軟體
+                服務在此環境下仍會持續成長，同時我們關注到後疫情時代，社群電商取代傳
+                統電商成為顯學，「直播」正是關鍵字之一。而此專案，基於以上現象，希望能
+                優化、創新網路視訊、直播平台，改變產業原有模式，幫助此專案之系統使用
+                者，提供視訊、直播觀看者提供更加個人化的服務。
+                <br><br>&emsp;&emsp;「平行宇宙」是一個假設的獨立存在平面，每個宇宙都有著自己獨特的歷
+                史和現實，而所有潛在平行時空之和則稱作「多重宇宙」。儘管目前尚無法證明
+                多重宇宙的存在，但這個概念仍然激發了許多科學家、哲學家和作家的想像
+                力，同時也激發了我們此次專案的構想，試圖將多重宇宙之概念運用在實際生
+                活中。
+                <br><br>&emsp;&emsp;基於多重宇宙的概念，我們小組提出「億個人的小宇宙」專案，此專案針
+                對網路視訊直播平台進行優化、升級，將產業原有的「一對多」模式轉變為很
+                多個「一對一」(圖一)，達成縮時多工的效果，又或者將原有的時間軸進行切
+                割錯置(圖二)，希望一個人能在同樣的時間區段，透過分身的存在，能同時完
+                成許多事情，一次性的針對不同訴求之觀看群眾，提供相對應的服務，進而形
+                成一個多重宇宙。系統除了分身功能外，也提供分眾、即時數據分析及問題回
+                覆之功能，以利系統使用者提供客製化、個人化服務。
+                <br><br>&emsp;&emsp;為達到所謂的多重宇宙的空間能力，分身效果成為我們技術上的追求，分
+                身須具備與使用者相似度極高的表現方式與行為模式，換言之，模型之訓練及
+                數據蒐集的真實性尤為關鍵，而人工智慧、機器學習則是我們此次專案之技術
+                亮點。且現代社會的生活節奏愈來愈快，人類越來越講求效率，該如何最佳化
+                地去時間運用、提高效率，無疑是當代社會重要的課題之，同樣也是我們小組
+                的訴求之一。
+            </h5>
+            <div class="mt_img">
+                <div class="mt_img_wrap">
+                    <img src="static/img/p1.png">
+                    <h5>圖一</h5>
+                </div>
+                <div class="mt_img_wrap">
+                    <img src="static/img/p2.png">
+                    <h5>圖二</h5>
+                </div>
+            </div>
+        </div>
+        <div class="feature">
+            <h2 class="mid_tt">專題特色</h2>
+            <h5 class="ctnt">1. 虛擬分身：
+                透過透過串接生成式AI、深度學習和機器學習技術，虛擬分身具備與
+                直播者相同的表達能力，藉由虛擬分身，我們就可以根據觀看者的需求
+                產生不同的分支，為每位觀眾提供個人化的服務。
+                <br><br>2. 分眾管理：
+                利用觀眾留言與訂單的追蹤實施客群分析，根據不同客群需求進行區
+                隔，透過系統化的資料分析、整合，更有效指派、管理分身。
+                <br><br>3. 即時互動性：
+                透過模型訓練、生程式AI的串接，分身將獲得與直播者相同的表達能
+                力藉由AI分身，我們就可以根據觀看者的需求產生不同的分支，為每
+                位觀眾提供個別化的服務。
+                <br><br>4. 問題分析：
+                直播觀看者在提出疑問後，針對問題進行分析、分級，進行即時判定，
+                若系統判定問題可由分身直接給予答覆，則指派分身進行回答；若系統
+                判定問題需交由系統使用者進行回答，則會通知系統使用者進行後續處
+                理。
+                <br><br>5. 時序調整：
+                利用下圖來舉例時序調整錯置，在一趟直播中，依據觀看者的喜好，系
+                統會隨時間段來產生不同的分身，而產生出的分身分為兩種，一是透過
+                模型所訓練出來的虛擬分身，二則是保存下來的直播片段，結合同步與
+                非同步的資源，根據觀看者需求，進行片段的錯置，直播與非同步同時
+                進行，以達最高效率。
+            </h5>
+            <div class="mt_img">
+                <div class="ft_img_wrap">
+                    <img src="static/img/p3.png">
+                </div>
+            </div>
+        </div>
+        <div class="ctbt">
+            <h2 class="mid_tt">專題貢獻</h2>
+            <div class="ctbt_s">
+                <div class="ctbt_e">
+                    <h4>學術界貢獻</h4>
+                    <h5 class="ctnt">
+                        <br>AI和機器學習的創新應用：在創建虛擬分身方面使用先進技術。
+                        <br><br>新理論框架：為計算機科學和數位通信提供新的理論模型。
+                        <br><br>數據分析與用戶行為研究：分析用戶數據和行為，有助於用戶體驗和數位行銷研究。
+                    </h5>
+                </div>
+                <div class="ctbt_e">
+                    <h4>實務界貢獻</h4>
+                    <h5 class="ctnt">
+                        <br>提升用戶體驗：在多個虛擬空間中同時互動，提高參與度和效率。
+                        <br><br>定製化和個性化：滿足數位服務個性化需求。
+                        <br><br>市場潛力：廣泛適用於不同行業，為線上通訊和商業提供新機會。
+                    </h5>
+                </div>
+            </div>   
+        </div>
+        <div class="honor">
+            <h2 class="mid_tt">比賽經歷</h2>
+            <h5 class="ctnt">
+                <i
+                    class="fa-solid fa-award
+                    fa-md"></i>&emsp;112年度第五屆人工智慧與大數據創意競賽&emsp;&emsp;入圍<br>
+                <i
+                    class="fa-solid fa-award
+                    fa-md"></i>&emsp;2023桃園新創之星-創天下競賽&emsp;&emsp;報名<br>
+                <i
+                    class="fa-solid fa-award
+                    fa-md"></i>&emsp;111-2資訊管理學系專題初賽&emsp;&emsp;B組第四名<br>
+                <i class="fa-solid fa-award fa-md"></i>&emsp;2023第一屆解決未來問題能力競賽&emsp;&emsp;入圍<br>
+                <i class="fa-solid fa-award fa-md"></i>&emsp;2023第28屆大專校院資訊應用服務創新競賽-產學合作組三&emsp;&emsp;佳作<br>
+                <i class="fa-solid fa-award fa-md"></i>&emsp;112-1資訊管理學系專題複賽&emsp;&emsp;B組第一名<br>
+            </h5>
+            <h2 class="mid_tt">相關影音</h2>
+            <div class="ctbt_s">
+                <div class="ctbt_e">
+                    <iframe width="100%" height="240px" style="border-radius: 20px;"
+                        src="https://www.youtube.com/embed/Fa92pJDzK9o?si=35AYwvrP2wAjNWIe" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                        <h5 style="text-align: center; margin-top:15px;">111-2資訊管理學系專題初賽</h5>
+                </div> 
+                <div class="ctbt_e">
+                    <iframe width="100%" height="240px" style="border-radius: 20px;"
+                        src="https://www.youtube.com/embed/-L4OscdqzWI?si=s4uU88xGS2lv1l0r"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <h5 style="text-align: center; margin-top:15px;">2023第28屆大專校院資訊應用服務創新競賽</h5>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="shiro_bg shiro_bs">
+        <div class="ft_container">
+            <div class="ft_logo">
+                <div class="ft_img_c">
+                    <img class="ft_img" src="static/img/logo.ico">
+                </div>
+                <p class="h6 ft_word">億個人的小宇宙</p>
+            </div>
+            <div>
+                <p style="font-size:16px;margin:0;">©億個人的小宇宙 2023</p>
+            </div>
+            <div class="ft_ic_c">
+                <a href="https://youtu.be/-L4OscdqzWI" target="_blank" class="kuro_f"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                <a href="https://innoserve.tca.org.tw/award.aspx" target="_blank" class="kuro_f"><i
+                        class="fa-solid fa-award fa-xl"></i></a>
+                <a href="https://innoserve.tca.org.tw/award.aspx" target="_blank" class="kuro_f"><i class="fa-solid fa-medal  fa-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
